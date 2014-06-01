@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 		{
 			nextFire = Time.time + fireRate;
 			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-			//audio.Play ();
+			audio.Play ();
 		}
 	}
 	
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
 				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
 				0.0f, 
 				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
-			);
+				);
 		
 		rigidbody.rotation = Quaternion.Euler (0.0f, 0.0f, rigidbody.velocity.x * -tilt);
 	}
