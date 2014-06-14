@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\VisualNovelToolkit\Scripts\ViNo\Data\ActorInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\3D Space Shooter\Assets\Done\Done_Scripts\Done_DestroyByContact.cs">
     <Files>
-      <File FileName="Assets\VisualNovelToolkit\Scripts\ViNo\Data\ActorInfo.cs" Line="14" Column="39" />
+      <File FileName="..\3D Space Shooter\Assets\Done\Done_Scripts\Done_DestroyByContact.cs" Line="26" Column="1" />
+      <File FileName="..\3D Space Shooter\Assets\Done\Done_Scripts\Done_GameController.cs" Line="96" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
